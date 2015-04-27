@@ -26,7 +26,7 @@ import java.util.concurrent.*;
  * {@link java.util.concurrent} library.
  * </li>
  * <li>
- * Runnable cannot be parametrized .Callable is a parametrized type whose type
+ * Runnable cannot be parameterized .Callable is a parameterized type whose type
  * parameter indicates the return type of its run method Classes implementing.
  * </li>
  * <li>
