@@ -1,5 +1,5 @@
 package org.katakam.corejava.reflection;
-import sun.reflect.CallerSensitive;
+//import sun.reflect.CallerSensitive;
 import sun.reflect.Reflection;
 
 class CallerClassFinder{
@@ -16,11 +16,11 @@ class CallerClassFinder{
 	at org.katakam.corejava.reflection.FindCallerClass.main(FindCallerClass.java:38)
 
 	 * */
-	@CallerSensitive
+	//@CallerSensitive
 	public void printCallerUsingReflection(){
-		Class<?> callerClass = Reflection.getCallerClass();
+		Class<?> callerClass = Reflection.getCallerClass(1);
 //		System.out.println("Caller name using reflection:  "+callerClass);
-		System.out.println("Caller name using reflection:\t"+callerClass.getName());
+		System.out.println("Caller name using reflection:\t\t"+callerClass.getName());
 	}
 	
 	public void printCallerUsingSecurityManager() {
