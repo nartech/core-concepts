@@ -1,5 +1,6 @@
 package org.katakam.corejava;
 
+
 public class StackOverflowTest {
 	public static int counter = 1;
 	public void method1() throws Exception{
@@ -18,9 +19,13 @@ public class StackOverflowTest {
 		}
 	}
 
+	/**
+	 * @param args
+	 * @throws Exception
+	 */
 	public static void main(String[] args) throws Exception {
-
 		StackOverflowTest sot = new StackOverflowTest();
+		//int i =(int)Math.random();
 		sot.method1();
 	}
 
