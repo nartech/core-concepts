@@ -1,15 +1,5 @@
-# java
-Sample code for design patterns and core java concepts
-package org.katakam.corejava.designpatterns.singleton
-contains different variants of Singleton pattern
-
-SingletonEagerInit.java	-- singleton using eager initialization
-SingletonEnum.java -- singleton using Enum
-SingletonInitializationOnDemand.java -- singleton using on demand initialization
-SingletonSerializationClone.java -- singleton to handle serialization, clone cases
-SingletonStaticBlockInit.java -- singleton using static initialization block
-SingletonUsingDoubleCheckingLocking.java -- singleton using double checking locking
-
+#**java core concepts**
+Tricky questions and code for some core java concepts
 
 package org.katakam.corejava.dynamicproxy 
    contains sample classes to create a dynamic proxy in java and how to simulate interceptor logic
@@ -24,11 +14,25 @@ package org.katakam.corejava.reflection
 package org.katakam.corejava.serialization
 	Different serialization examples
 
-Disclaimer:
+
+#design patterns
+package org.katakam.corejava.designpatterns.singleton
+contains different variants of Singleton pattern
+
+SingletonEagerInit.java	-- singleton using eager initialization
+SingletonEnum.java -- singleton using Enum
+SingletonInitializationOnDemand.java -- singleton using on demand initialization
+SingletonSerializationClone.java -- singleton to handle serialization, clone cases
+SingletonStaticBlockInit.java -- singleton using static initialization block
+SingletonUsingDoubleCheckingLocking.java -- singleton using double checking locking
+
+
+
+**Disclaimer:**
 Some of the code snippets are taken from other tutorials and the sources will be quoted appropriately. 
 
-References:
+**References:**
 http://en.wikipedia.org/wiki/Singleton_pattern
 http://surguy.net/articles/communication-across-classloaders.xml	-- to ensure singleton across class loaders
 For serialization:
-http://www.journaldev.com/2452/java-serialization-example-tutorial-serializable-serialversionuid  
+http://www.journaldev.com/2452/java-serialization-example-tutorial-serializable-serialversionuid
