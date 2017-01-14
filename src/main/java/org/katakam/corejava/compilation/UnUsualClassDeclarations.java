@@ -16,14 +16,13 @@ public class UnUsualClassDeclarations {
 
 		final class Constants {
 
-			public static String name = "PI";
+			//public static String name = "PI";
 		}
 
 		Thread thread = new Thread(new Runnable() {
 
-			@Override
 			public void run() {
-				System.out.println(Constants.name);
+				//System.out.println(Constants.name);
 			}
 
 		});
